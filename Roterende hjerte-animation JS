@@ -1,0 +1,8 @@
+   <script>
+        document.addEventListener('scroll', function() {
+            var scrollPosition = window.scrollY;
+            var rotation = scrollPosition % 360; // Roter kontinuerligt baseret på scrollposition
+            var element = document.querySelector('.tilmeld-hjerte');
+            element.style.transform = 'rotate(' + rotation + 'deg)';
+        });
+    </script>
