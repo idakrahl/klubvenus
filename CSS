@@ -1,0 +1,699 @@
+/*Fonte og farver*/
+.wopb-builder-container {
+	max-width: 90% !important;
+}
+h1{
+	font-family: ivypresto-display, serif;
+	font-size: 70px;
+	font-weight: 400;
+	font-style: normal;
+		margin-bottom: 1rem;
+}
+h2 {
+	font-family: ivypresto-display, serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 40px;
+	margin-bottom: 1rem;
+}
+h3 {
+	font-family: ivypresto-display, serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+}
+
+
+p {
+	font-family: "degular-display", sans-serif;
+	font-size: 20px;
+font-weight: 500;
+	font-style: normal;
+	margin: 0;
+}
+a {
+	font-family: "degular-display", sans-serif;
+font-weight: 600;
+	font-style: normal;
+}
+
+/*generelle indstillinger*/
+
+.nav-ul li a {
+color: #100F0D;
+	
+}
+
+
+.nav-ul li a:hover {
+color: #6DFF93 !important;
+}
+
+.nav-ul li.nv-active>.wrap>a {
+    color: #6DFF93;
+}
+.nav-ul li.nv-active>.wrap .caret {
+    color: #6DFF93 !important;
+}
+
+.__mPS2id {
+    color: #100F0D !important;
+
+}
+
+.header-main {
+	margin: 5px 25px 0px 25px;
+}
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.nv-page-title, .nv-big-title {
+	display: none;
+}
+
+.knap-bbypink a {
+	color: #100F0D;
+	background-color: #FFE8FF;
+		font-family: "degular-display", sans-serif;
+font-weight: 600;
+	font-style: normal;
+}
+
+.knap-bbypink a:hover {
+	background-color: #6DFF93;
+}
+
+.knap-green a {
+	color: #100F0D;
+	background-color: #6DFF93;
+		font-family: "degular-display", sans-serif;
+font-weight: 600;
+	font-style: normal;
+}
+
+.knap-green a:hover {
+	background-color: #FFE8FF;
+}
+
+.knap-green2 a{
+		color: #100F0D;
+	background-color: #6DFF93;
+		border: solid #6DFF93 2px;
+		font-family: "degular-display", sans-serif;
+font-weight: 600;
+	font-style: normal;
+}
+
+.knap-green2 a:hover {
+	background-color: #FFE8FF;
+	border: solid #6DFF93 2px;
+}
+
+.listeview-knap a{
+color: #100F0D;
+	background-color: #6DFF93;
+		font-family: "degular-display", sans-serif;
+font-weight: 600 !important;
+	font-style: normal;
+	font-size: 20px;
+}
+.listeview-knap a:hover{
+	background-color: #FFE8FF;
+}
+
+/*landingpage*/
+.kv-beskrivelse {
+	padding: 0% 29% !important;
+}
+.wp-block-button.udforsk-landingpage-boxknap {
+	margin-top: 1%;
+}
+.bestsellers-h2 {
+	margin-bottom: 1.5% !important;
+}
+.bestseller-cloud img:hover {
+opacity: 0%;
+
+}
+.bestseller-cloud:hover {
+	background-image: url(https://mmd-kv.ilkrahl98.dk/wp-content/uploads/2024/05/Cloudd2.webp);
+	background-size:contain;
+}
+.bestseller-sassy img:hover {
+opacity: 0%;
+
+}
+.bestseller-sassy:hover {
+	background-image: url(https://mmd-kv.ilkrahl98.dk/wp-content/uploads/2024/05/S-assy2.webp);
+	background-size:contain;
+}
+
+.bestseller-woody img:hover {
+opacity: 0%;
+
+}
+.bestseller-woody:hover {
+	background-image: url(https://mmd-kv.ilkrahl98.dk/wp-content/uploads/2024/05/Woody2.webp);
+	background-size:contain;
+}
+
+.bestseller-smooch img:hover {
+opacity: 0%;
+	
+}
+.bestseller-smooch:hover {
+	background-image: url(https://mmd-kv.ilkrahl98.dk/wp-content/uploads/2024/05/Smooch2.webp);
+	background-size:contain;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+.category-button {
+    min-width: 320px;
+    padding:13px;
+    margin: 5px;
+	 cursor: pointer;
+}
+
+.nav-button {
+    position: absolute;
+    top: 32%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: #100F0D;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+		z-index: 1;
+}
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #6DFF93;
+}
+
+.nav-button.prev {
+    left: 0;
+}
+
+.nav-button.next {
+    right: 0;
+}
+
+.wpcp-carousel-wrapper {
+	margin-right: -10%;
+		margin-left: -10%;
+	
+}
+.wpcp-swiper-dots {
+	display: none;
+}
+.swiper-button-prev, .swiper-button-next {
+	display: none;
+	
+}
+.venusvenner {
+
+}
+.venusvennerslider {
+		z-index: 0;
+}
+.venusvennertekst {
+	z-index: 1;
+		background-color: #FFE8FF;
+}
+.smile-hearticon {
+transform: rotate(-10deg)
+}
+/*singleview*/
+.singleview_h2 h2 {
+	display: none;
+}
+.venus-inthewild {
+	gap: 0.5%;
+}
+.woocommerce-breadcrumb {
+		font-family: "degular-display", sans-serif;
+}
+
+.wopb-block-96035e .wopb-block-content-wrap .wopb-block-image ~ .wopb-product-btn a {
+text-transform: none;
+	font-size: 15px;
+		padding: 10px 15px;
+}
+
+/*listeview*/
+.shop-beskrivelse {
+	margin: 0% 25%;
+}
+
+.hover-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Juster max-bredde efter behov */
+    height: 0;
+    padding-bottom: 125%; /* Forholdet 4:5 (4/5 = 0.8 * 100 = 80%) */
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: rgba(0.25, 0.25, 0.25, 0.25) 1px 1px 8px;
+}
+
+.hover-image,
+.hover-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 30px; /* For at sikre, at både billede og video har afrundede hjørner */
+}
+
+.hover-video {
+    display: none; /* Skjuler videoen til at begynde med */
+}
+
+.hover-wrapper:hover .hover-video {
+    display: block;
+}
+
+.hover-wrapper:hover .hover-image {
+    display: none;
+}
+
+/* Tilføj responsiv styling */
+@media (max-width: 600px) {
+    .hover-wrapper {
+        max-width: 100%;
+        padding-bottom: 125%; /* Forholdet 4:5 */
+    }
+}
+
+.listeview-blok1 h3 a {
+		font-family: ivypresto-display, serif; 
+	font-weight: 300;
+	font-style: normal;
+	font-size: 30px;
+	text-decoration: none; 
+		color: #100F0D;
+}
+
+.listeview-blok1 h3 {
+	margin-bottom: 10px;
+}
+
+
+.listeview-blok1 p a, .listeview-blok1 a {
+	text-decoration: none; 
+		font-weight: 400;
+}
+
+.farve1 p {
+	margin-right: -10%;
+}
+.farve2 p {
+	margin-left: -10%;
+}
+.wp-block-columns{
+	margin: 0;
+}
+
+.color1 {
+	color: #FF3B50;
+}
+.color2 {
+	color: #FF2171;
+}
+.color3 {
+	color: #FF3B50;
+}
+
+.color4 {
+	color: #DEFF8F;
+}
+/*kategoriview*/
+
+.wc-block-grid__product-title {
+	color: #100F0D !important;
+		font-family: ivypresto-display, serif !important; 
+	font-weight: 400 !important;
+	font-size: 20px !important;
+}
+
+.wc-block-grid__product-price {
+		font-family: "degular-display", sans-serif;
+font-weight: 600;
+	font-style: normal;
+	color: grey;
+}
+.backpil a {
+	text-decoration: none;
+		color: #100F0D;
+}
+
+.backpil a:hover {
+	text-decoration: none;
+		color: #6DFF93;
+}
+
+/*communitypage*/
+
+.tilmeld {
+	text-align: center;
+}
+.tilmeld-p {
+	margin: 0% 20%;
+}
+.tilmeld-grid {
+	display: flex;
+justify-content: center;
+	gap: 1%;
+}
+.gdpr-container label, .gdpr-container label a {
+font-size: 11px;
+	color: grey;
+}
+#name, #email {
+		font-family: "degular-display", sans-serif;
+font-weight: 500;
+border-radius: 15px;	
+}
+.tilmeld-knap {
+	border-radius: 15px;
+	width: 150px;
+}
+
+.tilmeld-knap:hover {
+background-color: #ffe8ff;
+	color: #100F0D;
+}
+
+  .tilmeld-hjerte {
+            width: 100px;
+    height: 50px;
+		 transform-origin: center;
+        }
+
+.community-h2 {
+	z-index: 1;
+	text-align: center;
+	margin-top: -20%;
+	margin-bottom: 12%;
+
+}
+
+.wpcp-carousel-content-wrapper {
+	z-index: -1;
+}
+.event-p {
+	margin: 0% 18%;
+}
+/* sexbrevkasse*/
+.sexspørgsmål {
+	margin-right: -10%;
+}
+.skrivtilbrevkassen-p {
+	margin-right: 28%;
+}
+/*Venus paper*/
+.venuspaper-textbox p.has-background {
+    padding: 0.5em 1em;
+}
+.venus-paper {
+	margin-right: -5%;
+}
+.venuspaper-textbox a {
+	color: #100F0D;
+	text-decoration: none;
+}
+.venuspaper-textbox a:hover {
+	text-decoration: underline;
+}
+
+/* stil os et spørgsmål*/
+
+.stilspørgsmål-sektion {
+	background-image: url(https://mmd-kv.ilkrahl98.dk/wp-content/uploads/2024/05/sof-spoergsmaal-1-scaled.webp);
+		background-size: cover;
+
+}
+
+.wpcf7-textarea {
+	width: 180%;
+	margin-top: -8%;
+}
+
+.spørgsmål-container2 textarea {
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+/*footer*/
+footer h3 {
+	margin-bottom: -15px;
+} 
+
+form.wp-block-search input.wp-block-search__input {
+		font-family: "degular-display", sans-serif;
+font-weight: 500;
+	font-style: normal;
+}
+.wp-block-search .wp-block-search__button, button {
+	background-color: #6DFF93;
+	color: #100F0D; 
+	font-family: "degular-display", sans-serif;
+}
+
+.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor {
+	color: #100F0D;
+	background-color: #6DFF93;
+	border-radius: 100%;
+}
+
+.footer-bottom {
+	display: none;
+}
+footer a {
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+}
+footer a:hover {
+color: #6DFF93;
+}
+/*mobileview indstillinger*/
+#menu-item-1934, #menu-item-1935 {
+	display: none;
+}
+
+.mobile-banner-landing {
+	display: none;
+}
+
+	.mobileview-knap a{
+		font-family: "degular-display", sans-serif;
+font-weight: 600;
+			display: none;
+	}
+
+.kampagnefilm-mobile {
+	display: none;
+}
+.din-mening-mobile, .titel-mobile, .ekstramenu-mobile, .ekstramenu-mobile a {
+	display: none !important;
+}
+.wp-element-caption {
+	display: none;
+}
+@media (max-width: 700px) {
+	
+	p, .selfcare-sektion p, .udforsk-kategorier p {
+		font-size: 15px !important;
+	}
+	
+		h2, .selfcare-sektion h2, .udforsk-kategorier h2 {
+		font-size: 30px !important;
+	}
+	
+.titel-mobile {
+	display: block !important;
+}
+.landingpage-blok1, .bestsellers-h2, .landingpage-blok2 img, .afstand-mobile {
+		display: none;
+	}
+	.landingpage-blok2 {
+		display: none !important; 
+	}
+	.mobile-banner-landing {
+	display: block;
+}
+	.selfcare-sektion, .mobileview-knap{
+		background-color: #FFE8FF;
+	}
+	
+.wp-block-video {
+		padding-left: 0 !important;
+	width: 100% !important;
+	}
+	.community-knap	a {
+		display: none;
+	}
+		.mobileview-knap a{
+			display: block;
+	}
+	.kampagnefilm-mobile {
+	display: block;
+}
+	
+	.kampagnefilm-desktop {
+	display: none;
+}
+	
+	
+	.category-button {
+		min-width: 220px !important;
+	}
+	
+	.din-mening {
+	display: none;
+}
+	
+	.din-mening-mobile {
+	display: block !important;
+}
+		.din-mening-mobile a{
+				font-family: "degular-display", sans-serif;
+}
+	
+	.venusvennertekst p, 	.venusvennertekst a {
+			font-size: 15px !important;
+}
+	.liste-kategorier img, .liste-kategorier {
+		display
+		: none;
+	}
+.wopb-builder-container {
+	max-width: 85% !important;
+}
+	.tre-kategorier, .anmeldelse, .titel-desktop {
+		display: none;
+	}
+	.mobile-titel {
+		display: block !important;
+	}
+		.mobile-titel {
+		font: 50px !important;
+	}
+	.wopb-builder-slider-nav {
+		display: none !important;
+	}
+	.ekstramenu,	.ekstramenu a{
+		display: none;
+	}
+		.ekstramenu-mobile, .ekstramenu-mobile a{
+		display: block !important;
+			margin: 0% !important;
+	}
+		.tilmeld-grid {
+	display: grid;
+		grid-template-columns: 1fr;
+justify-content: start;
+		gap: 10%;
+}
+	.gdpr-container {
+		margin-top: 10%;
+		display: flex !important;
+	}
+	.gdpr-container input {
+		margin-left: 10%;
+	} 
+	.gdpr-container label {
+		margin-right: 10%;
+	} 
+	.tilmeld-hjerte {
+		margin-top: -30%;
+	}
+	.tilmeld-p {
+			margin: -5% 5% 0% 5%;
+			font-size: 18px !important;
+	}
+	.sexbrevkasse-sektion p {
+		font-size: 18px !important;
+	}
+	.story {
+		display: none;
+	}
+	.story-mobile p{
+			font-size: 15px !important;
+		padding: 0% 8%;
+	}
+.wpcf7-textarea {
+	width: 100%;
+}
+	.wp-block-buttons>.wp-block-button.wp-block-button__width-25 {
+    width: 100% !important;
+}
+	.venuspaper-billede, .event-mobile {
+		display: none;
+	}
+	.venuspaper-textbox {
+		margin-top: -25%;
+	}
+	.wp-element-caption {
+	display: block;
+		text-align: center;
+		font-family: "degular-display", sans-serif;
+		background-color:#6DFF93;
+		margin-top: 0; 
+}
+	.guide-hjerte {
+		margin-right: 30%;
+	}
+	.tom-kolonne {
+		display: none;
+	}
+	.event-hjerte {
+	margin-left: 35%;
+		width: 30%;
+	}
+	.venuspaper-textbox {
+margin-right: 15% !important;
+}
+	.med-h2-mobile {
+		margin-top: -5%;
+	}
+
+	.shop-beskrivelse {
+	margin: 0% 0% !important;
+}
+	.sexbrevkassen-p {
+		font-size: 18px !important;
+		margin-right: 10% !important;
+		
+	}
+	.skrivtilbrevkassen-p {
+	margin-right: 0% !important;
+		font-size: 18px !important;
+}
+		.venuspaper p {
+		font-size: 18px !important;
+}
+.event-p {
+	text-align: left !important;
+	margin: 0% 5%;
+	font-size: 18px !important;
+}
+
+}
