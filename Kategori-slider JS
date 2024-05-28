@@ -1,0 +1,59 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const carouselWrapper = document.getElementById('carousel-wrapper');
+    const categoryButtons = document.querySelectorAll('.category-button');
+    const buttonWidth = categoryButtons[0].offsetWidth + 10; // Inkluderer margin
+
+    let currentIndex = 0;
+    let autoSlideInterval;
+
+    function slide(retning) {
+        if (retning === 'next') {
+            currentIndex++;
+            if (currentIndex >= categoryButtons.length / 2) {
+                currentIndex = 0;
+                carouselWrapper.style.transition = 'none';
+                carouselWrapper.style.transform = `translateX(0px)`;
+                setTimeout(() => {
+                    carouselWrapper.style.transition = 'transform 0.3s ease';
+                    currentIndex++;
+                    carouselWrapper.style.transform = `translateX(${-currentIndex * buttonWidth}px)`;
+                }, 50);
+                return;
+            }
+        } else if (retning === 'prev') {
+            currentIndex--;
+            if (currentIndex < 0) {
+                currentIndex = categoryButtons.length / 2 - 1;
+                carouselWrapper.style.transition = 'none';
+                carouselWrapper.style.transform = `translateX(${-currentIndex * buttonWidth}px)`;
+                setTimeout(() => {
+                    carouselWrapper.style.transition = 'transform 0.3s ease';
+                    currentIndex--;
+                    carouselWrapper.style.transform = `translateX(${-currentIndex * buttonWidth}px)`;
+                }, 50);
+                return;
+            }
+        }
+        carouselWrapper.style.transform = `translateX(${-currentIndex * buttonWidth}px)`;
+    }
+
+    function autoSlide() {
+        slide('next');
+    }
+
+    // Start automatisk glidning
+    autoSlideInterval = setInterval(autoSlide, 3000);
+
+    // Tilføj event listeners til navigationsknapper for manuel navigation
+    document.querySelector('.nav-button.prev').addEventListener('click', function() {
+        clearInterval(autoSlideInterval);
+        slide('prev');
+        autoSlideInterval = setInterval(autoSlide, 3000); // Genstart intervallet
+    });
+
+    document.querySelector('.nav-button.next').addEventListener('click', function() {
+        clearInterval(autoSlideInterval);
+        slide('next');
+        autoSlideInterval = setInterval(autoSlide, 3000); // Genstart intervallet
+    });
+});
